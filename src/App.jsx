@@ -1,8 +1,14 @@
-import { useState } from "react";
-import "./App.css";
+import React from "react";
+import Header from "./components/Header";
+import Quotes from "./components/Quotes";
 
-function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+const App = () => {
+  return (
+    <div className="font-courier">
+      <Header></Header>
+      <Quotes></Quotes>
+    </div>
+  );
+};
 
 export default App;
